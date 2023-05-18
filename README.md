@@ -15,7 +15,8 @@ This is the repoitory for assignment submission of Software Subsystem of Team AU
 ### Note:
 - You may use the internet to understand the required commands and concepts.
 - Make sure to properly document your steps for each level in the README.md file.
-- Be sure to give a proper **Title** to your PR. (The title of PR should be "[Assignment **#** Submission]_[Name]_[Roll Number]_[Subsystem]")
+- Be sure to give a proper **Title** to your PR. (The title of PR should be "[Assignment **#** Submission]\_[Name]\_[Roll Number]\_[Subsystem]")<br>
+An example submission can have the title "Assignment 1 Submission\_Tejas Gupta\_211107\_Software"
 - If you encounter any issues or have questions, feel free to ask for assistance.
 
 Please let me know if you need further clarification
