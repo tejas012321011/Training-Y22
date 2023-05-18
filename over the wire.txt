@@ -1,0 +1,7 @@
+level 0 - 1 : password NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+level 1 - 2 : password rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi, there was ahidden file. To access    		 that file I used./
+level 2 - 3 : password aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG,  file with space was there so used cat "spaces in this filename" used double quote
+level 3 - 4 : 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe, in this level there was inhere directory with hidden file named .hidden so first we used command ls which showed inhere directory then used cd inhere then used ls -a which showed all files in which there was .hidden file then used cat .hidden to access file
+level 4 - 5 : lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR, used ls then cd inhere then one by one cat ./-file00....
+level 5 - 6 : P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU, used ls then cd inhere then ls then find -size 1033c will get ./maybehere07/.file2 then used command cd maybehere07 then used ls -a to see all the files then used cat .file2
+level 6 -7 : 
