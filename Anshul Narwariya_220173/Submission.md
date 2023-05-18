@@ -1,4 +1,4 @@
-<h2>Assignment#Submission Anshul Narwariya 220173_Mechanicalsubsystem.</h2>
+<h1>Assignment#Submission Anshul Narwariya 220173_Mechanicalsubsystem.</h1>
 <h3>Level 0</h3>
 - To connect to the host I use "ssh bandit0@bandit.labs.overthewire.org -p 2220" command.<br>
 - Password used to connect to host is "bandit0"(Given).<br>
