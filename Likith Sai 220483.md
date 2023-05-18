@@ -3,7 +3,7 @@
 The usage of cat command 
 NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 <h3> Bandit 2</h3>
-The usage of cat to open files with names as special characters
+The usage of cat to open files with names as special characters<br>
 rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 <h3> Bandit 3</h3>
 How to open files with spaces in their name using cat
