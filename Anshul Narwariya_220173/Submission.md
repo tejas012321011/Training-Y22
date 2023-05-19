@@ -36,3 +36,5 @@
 - In this there is a unique line so we use uniq command.<br>
 - we use "cat data.txt | sort | uniq -u".<br>
 - in this we use "string data.txt | grep =".<br>
+<h3>Level 9 to Level 10</h3>
+-In this we use "strings data.txt | grep =".<br>
