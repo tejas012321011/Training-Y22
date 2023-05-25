@@ -38,15 +38,15 @@ These assignemnts are compulsory for the junior team members in software subsyst
 - Basic knowledge of version control and md file syntax
 - Basic knowledge of bash scripting
 
-#### Tasks: 
-
-**Aim**: Understanding basic concepts related to ROS: nodes, topics, publishers, subscribers, messages and packages
-**Deadline:** 31st May, 2023
-**Submission Format**: 
+#### Aim: 
+Understanding basic concepts related to ROS: nodes, topics, publishers, subscribers, messages and packages
+#### Deadline:
+31st May, 2023
+#### Submission Format: 
 - Create a Pull Request against the Submission branch
 - Your submission should contain your source (src) folder from your workspace and a markdown file explaining all the procedures to code in detail
 
-**Tasks**:
+#### Tasks:
 - Create a catkin workspace for doing your assignments.
 - Create a package titles ***math*** in that workspace.
 - Implement two ROS nodes within the "math" package:
@@ -61,9 +61,10 @@ These assignemnts are compulsory for the junior team members in software subsyst
         - The service should accept two numbers from the topics published by input_node.
         - The service should return the sum of the two numbers.  
   
-**Resources**: Start with the official ROS tutorials [here](http://wiki.ros.org/ROS/Tutorials); Do note Intermediate ones are also compulsory.Other resources will be posted as required
+#### Resources: 
+Start with the official ROS tutorials [here](http://wiki.ros.org/ROS/Tutorials); Do note Intermediate ones are also compulsory.Other resources will be posted as required
 
 --------------------------------------------------------------------------------------
-**Bonus Assignments**: Coming Soon !!
+#### Bonus Assignments: Coming Soon !!
 
 
