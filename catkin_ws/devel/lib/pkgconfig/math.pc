@@ -1,0 +1,8 @@
+prefix=/home/mudit/catkin_ws/devel
+
+Name: math
+Description: Description of math
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
