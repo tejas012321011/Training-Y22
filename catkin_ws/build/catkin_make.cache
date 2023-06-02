@@ -1,0 +1,2 @@
+math
+-DCATKIN_DEVEL_PREFIX=/Users/mridulgupta/Desktop/Code/Git Files/Training-Y22/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/Users/mridulgupta/Desktop/Code/Git Files/Training-Y22/catkin_ws/install -G Unix Makefiles
