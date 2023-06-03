@@ -1,0 +1,50 @@
+For creating catkin workspace we go to terminal and create the new catkin workspace using catkin_make . 1. mkdir -p/catkin_ws/src   2.  cd -/catkin_ws/   3.  catkin_make
+
+Then we source it by writing on terminal source devel/setup.bash
+Then we create a new package named math by writing on terminal 1. cd -/catkin_ws/src  to get into 2. catkin_create_pkg math rospy
+Then we create a node directory within math package to store ros nodes by writing 1. cd ~/catkin_ws/src/math 2. mkdir nodes
+Then  we Create the first ROS node named "input_node.py" inside the "nodes" directory by writing
+Touch nodes/input_node.py
+Now open node input_node.py in pycharm and write code in it 
+import rospy
+from std_msgs.msg import Int32
+
+rospy.init_node('input_node')
+
+pub1 = rospy.Publisher('number1', Int32, queue_size=10)
+pub2 = rospy.Publisher('number2', Int32, queue_size=10)
+
+rate = rospy.Rate(1)  # Publish rate in Hz
+
+while not rospy.is_shutdown():
+    number1 = 42  # Replace with your random number generation logic
+    number2 = 17  # Replace with your random number generation logic
+
+    pub1.publish(number1)
+    pub2.publish(number2)
+
+    rate.sleep()
+create second ros node named output_node.py inside nodes directory by writing touch nodes/output_nodes.py now open this in pycharm and write in it
+import rospy
+from std_msgs.msg import Int32
+from math.srv import AddTwoNumbers, AddTwoNumbersResponse
+
+rospy.init_node('output_node')
+
+sum_pub = rospy.Publisher('sum', Int32, queue_size=10)
+
+def add_two_numbers(request):
+    sum_result = request.number1 + request.number2
+
+    sum_pub.publish(sum_result)
+
+    return AddTwoNumbersResponse(sum_result)
+    rospy.Service('add_two_numbers', AddTwoNumbers, add_two_numbers)
+
+rospy.spin()
+now create srv directory within math package to store the service definition file by writing 1. mkdir srv then create a new file named addtwonumbers.srv  inside srv by writing touch srv/addtwonumbers.srv
+then open this in pycharm and write 
+int32 number1
+int32 number2
+int32 sum
+go in catkinworkspace by writing 1.cd -/catkin_ws and write 2.catkin_make to save all the changes in workspace.
