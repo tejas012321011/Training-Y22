@@ -1,0 +1,8 @@
+prefix=/home/vishakha/catkin_ws/src/math/build/devel
+
+Name: math
+Description: Description of math
+Version: 0.0.0
+Cflags: -I/home/vishakha/catkin_ws/src/math/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

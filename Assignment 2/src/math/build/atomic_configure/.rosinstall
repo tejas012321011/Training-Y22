@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/vishakha/catkin_ws/src/math/build/devel/setup.sh
