@@ -47,7 +47,7 @@ step 2) No need to define a node unlike the server's code, i just used the ROS t
 
 step 3) Also I subscribed to both the topics published by the input_node node using the client.
 
-#Explaination of overall code:
+## Explaination of overall code:
 
 1) Open 4 terminal tabs.
 2) run roscore (master) in the first tab.
