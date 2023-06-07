@@ -55,4 +55,4 @@ step 3) Also I subscribed to both the topics published by the input_node node us
 4) run the input_node.py in the third tab which continuously prints 2 random numbers until the ROS is shutdown or in other words, until the node is closed.
 5) run add_two_ints_clients.py in the fourth tab.
 
-result : In the fourth tab, i.e the client's tab, The 2 numbers listened by the clients and their sum, is printed by the client.
+<u>***result***</u> : In the fourth tab, i.e the client's tab, The 2 numbers listened by the clients and their sum, is printed by the client.
