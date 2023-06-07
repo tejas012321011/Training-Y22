@@ -1,5 +1,5 @@
 # documentation of Assignment 2 Software
-## creating a catkin work sapce
+## creating a catkin work space
 
 step 1) googled what a catkin workspace is.
 
