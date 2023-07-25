@@ -31,8 +31,8 @@ Some useful resources :
 ## Software Subsystem Assignments:
 These assignemnts are compulsory for the junior team members in software subsystem or those who would like to shift there subsystem. Though the first assignment is recommended for all.
 ### Contents 
-- [Assignment 1](assignment-1-ros-basics)
-- [Assignment 2](assignment-2-mapping-and-simulation)
+- [Assignment 1](#assignment-1-ros-basics)
+- [Assignment 2](#assignment-2-mapping-and-simulation)
 ### Assignment 1 ROS Basics
 ------------------------------------------------------------------------------------------------------
 #### Prerequisites:
