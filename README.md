@@ -65,7 +65,11 @@ Understanding basic concepts related to ROS: nodes, topics, publishers, subscrib
 #### Resources: 
 Start with the official ROS tutorials [here](http://wiki.ros.org/ROS/Tutorials); Do note Intermediate ones are also compulsory.Other resources will be posted as required
 
+
+
 ### Assignment 2 Mapping and Simulation
+----------------------------------------------------------------------
+
 #### Aim: 
 Understanding mapping and simulating the world.
 
