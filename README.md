@@ -31,8 +31,9 @@ Some useful resources :
 ## Software Subsystem Assignments:
 These assignemnts are compulsory for the junior team members in software subsystem or those who would like to shift there subsystem. Though the first assignment is recommended for all.
 ### Contents 
-- [Assignment 1](https://github.com/tejas012321011/Training-Y22/edit/main/README.md#assignment-1-ros-basics)
-### Assignment 1: ROS Basics
+- [Assignment 1](#assignment-1-ros-basics)
+- [Assignment 2](#assignment-2-mapping-and-simulation)
+### Assignment 1 ROS Basics
 ------------------------------------------------------------------------------------------------------
 #### Prerequisites:
 - Basic knowledge of version control and md file syntax
@@ -64,7 +65,48 @@ Understanding basic concepts related to ROS: nodes, topics, publishers, subscrib
 #### Resources: 
 Start with the official ROS tutorials [here](http://wiki.ros.org/ROS/Tutorials); Do note Intermediate ones are also compulsory.Other resources will be posted as required
 
+
+
+### Assignment 2 Mapping and Simulation
+----------------------------------------------------------------------
+
+#### Aim: 
+Understanding mapping and simulating the world.
+
+#### Deadline:
+31st July, 2023
+
+#### Submission Format:
+- Create a pull request (new) against the `submission` branch.
+- Your PR should contain the `src` folder from the workspace.
+- Your PR should contain the `README.md` file with all the details about how to run your code and the procedure you followed.
+- A **screen recording** of the simulation is required (upload it on youtube and add the link in the README). 
+
+
+#### Task:
+
+Create a new package named `demo-gazebo`. Learn about how to create world files, and create one in the package. 
+
+a. Customize it as per your choice with the following requirements:
+- A model from the default gazebo library ex: postbox.
+- A custom model outside the gazebo library.
+- An additional source of light
+- A custom physics solver 
+
+b. Write a launch file to visualize/load this world in the simulation environment. The launch file goes into the launch folder.
+
+c. Learn about Robot Modelling, explicitly URDF and XACRO. 
+- Create a robot using the URDF file. (You are free to refer from the internet for this one).
+- To move the robot use the differential drive plugin. Configure it to move your robot.
+- Spawn the robot in the world you had created and try moving it from the terminal.
+- Learn about teleop key package. Use it to drive your robot.
+
+#### Useful Resources: 
+
+[Lauch files](http://gazebosim.org/tutorials?tut=ros_roslaunch), [Physics engine](https://gazebosim.org/tutorials?tut=physics_params&cat=physics)
+
 --------------------------------------------------------------------------------------
+
 #### Bonus Assignments: Coming Soon !!
 
 
